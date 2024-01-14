@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<style>
+    #first{
+    margin-left: 10px;
+}
+#firsts{
+    position: fixed;
+    z-index: 2;
+}
+.makings{
+    display: none;
+}
+.but{
+    width: 350px;
+}
+.bye{
+    text-align: center;
+    font-size: small;
+}
+
+.siggn{
+    position: absolute;
+    top: 0%;
+    height: 800px;
+    margin-left: 550px;
+    background-color: white;
+    width: 380px;
+    height: 700px;
+    
+}
+
+.imgd{
+    position: relative;
+    height: 115vh;
+}
+
+.magg{
+    text-align: center;
+    transform: translateY(10px);
+}
+a{
+    text-decoration: none;
+}
+.sign{
+    display: none;
+}
+.sty{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 475px){
+   
+    #first{
+        transform: translate(-100px);
+    }
+    .makings{
+        display: block;
+        padding-top: 70px;
+        margin-left: 150px;
+    }
+    .imgd{
+        display: none;
+    }
+    
+    .siggn{
+       display: none;
+    
+        
+    }
+    .sty{
+        display: block;
+    }
+    .magg{
+        transform: translateY(0);
+    }  
+
+    
+}
+</style>
+<body>
+
+    <nav class="navbar text-bg-dark col-12" id="firsts">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#">
+                <img src="images/svgexport-2.svg" alt="Logo" id="first" width="" height="24"
+                    class="d-inline-block align-text-top ms-5" />
+            </a>
+        </div>
+    </nav>
+
+        <div>
+        <img src="images/033120190455-by-Henry.2edde7a9.jpg" alt="" width="100%" height="100%" class="imgd" />
+    </div>
+
+    <div class="text-bg-lig siggn col-sm- col-md-0 col-lg-0">
+        <img src="images/svgexport-1 (1).svg " class="makings" alt="" />
+        <p class="text-dark mt-lg-5 mt-sm-0 mb-3 magg fs-4">Sign up for flickr</p>
+
+        <div class="form-floating mb-2 me-3 ms-3 mt-4">
+            <input type="text" class="form-control h-75" id="floatingInput" placeholder="First name" />
+            <label for="floatingInput">First name</label>
+        </div>
+        <div class="form-floating mb-2 me-3 ms-3">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Password" />
+            <label for="floatingPassword">Last name</label>
+        </div>
+        <div class="form-floating mb-2 me-3 ms-3">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Password" />
+            <label for="floatingPassword">Your age</label>
+        </div>
+        <div class="form-floating mb-2 me-3 ms-3">
+            <input type="email" class="form-control" id="floatingPassword" placeholder="Password" />
+            <label for="floatingPassword">Email address</label>
+        </div>
+        <div class="form-floating mb-2 me-3 ms-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
+            <label for="floatingPassword">Password</label>
+        </div>
+        <div class="form-floating mb-4 me-3 ms-3 border border-1 border-black p-3">
+            <input type="checkbox"> i'm not robot
+        </div>
+        <button type="button" class="btn btn-primary ms-3 me-3 p-2 mt-3 col-11 form-floating fw-bold fs-5 mb-3"
+            disabled>
+            sign up
+        </button>
+        <div class="col- bye">
+            By signing up, you agree with Flickr's
+            <a href="">Terms of <br />
+                Service and Privacy Policy</a>
+        </div>
+        <hr class="col-10 ms-4 ">
+    <div class="col- bye">
+        Already a Flickr member?
+        <a href=""> Log in here</a>
+    </div>
+    <div class="d-flex mt-2">
+        <a href="" class="">English</a>
+        <a href="" class="">English</a>
+
+    </div>
+    </div> 
+
+
+
+
+    <!-- <div class="text-bg-lig siggn col-sm- col-md-0 col-lg-0"> -->
+        <div class="sty">
+        <img src="images/svgexport-1 (1).svg " class="makings" alt="" />
+        <p class="text-dark mt-lg-5 mt-sm-0 mb-3 magg fs-4">Sign up for flickr</p>
+
+        <div class="form-floating mb-2 me-3 ms-3 mt-4">
+            <input type="text" class="form-control h-75" id="floatingInput" placeholder="First name" />
+            <label for="floatingInput">First name</label>
+        </div>
+        <div class="form-floating mb-2 me-3 ms-3">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Password" />
+            <label for="floatingPassword">Last name</label>
+        </div>
+        <div class="form-floating mb-2 me-3 ms-3">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Password" />
+            <label for="floatingPassword">Your age</label>
+        </div>
+        <div class="form-floating mb-2 me-3 ms-3">
+            <input type="email" class="form-control" id="floatingPassword" placeholder="Password" />
+            <label for="floatingPassword">Email address</label>
+        </div>
+        <div class="form-floating mb-2 me-3 ms-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
+            <label for="floatingPassword">Password</label>
+        </div>
+        <div class="form-floating mb-4 me-3 ms-3 border border-1 border-black p-3">
+        <input type="checkbox"> i'm not robot
+        </div>
+        <button type="button" class="btn btn-primary ms-3 me-3 p-2 mt-3 col-11 form-floating fw-bold fs-5 mb-3"
+            disabled>
+            sign up
+        </button>
+        <div class="col- bye">
+            By signing up, you agree with Flickr's
+            <a href="">Terms of <br />
+                Service and Privacy Policy</a>
+        </div>
+        <hr class="col-10 ms-4 ">
+    <div class="col- bye">
+        Already a Flickr member?
+        <a href=""> Log in here</a>
+    </div>
+    <div class="d-flex mt-2">
+        <a href="" class="">English</a>
+        <a href="" class="">English</a>
+
+    </div>
+    </div> 
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
